@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Putyin Game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: steelblue;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+  }
+
+#tut {  
+    text-align: center;
+    font-size: 30px;
+}
+
+#p1 {
+    width: 100px;
+    height: 100px;
+    background-image: url('putyin.png');
+    background-position: center;
+    background-size: 100px;
+    margin-left: 90%;
+}
+
+#p2 {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    background-position: center;
+    background-size: 100px;
+    margin-left: 90%;
+}
+
+#p3 {
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    background-position: center;
+    background-size: 100px;
+    margin-left: 90%;
+}
+
+#gun {
+    width: 100px;
+    height: 100px;
+    background-size: 100px;
+    background-image: url('gun.png');
+    background-position: center;
+}
+    </style>
+</head>
+<body>
+    <br>
+    <div id="tut">Ebben a játékban le kell lőnöd putyint.</div>
+    
+    <br><br>
+    <div id="p1" onclick="p1c()"></div>
+    <br><div id="gun"></div>
+    <div id="p2" onclick="p2c()"></div>
+    <br><br><br><br><br><br>
+    <div id="p3" onclick="p3c()"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
